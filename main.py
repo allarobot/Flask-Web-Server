@@ -13,15 +13,27 @@ def start():
   })
 @app.route('/api/image_web', methods=['GET'])
 def image():
+    '''
+    image web page with image in it
+    :return:
+    '''
     return render_template('index.html')
 
 @app.route('/api/get_image', methods=['GET'])
 def get_image():
+    '''
+    image file will be downloaded by client
+    :return:
+    '''
     img = cv2.imread('static/image_1.jpg')
     return send_from_directory('static','image_1.jpg') #send_file('static/image_1.jpg',mimetype='image/jpg')
 
 @app.route('/login',methods=['GET','POST'])
 def login():
+    '''
+    try POST function
+    :return:
+    '''
     if request.method == 'POST':
         data = request.get_data()
         print(data)
