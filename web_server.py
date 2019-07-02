@@ -10,12 +10,17 @@ class VideoCamera():
         self.cap = cv2.VideoCapture(device)
 
     def __del__(self):
-        cv2.release(self.cap)
+        self.cap.release()
 
-    def get_frame(self):
+    def get_jpeg(self):
         ret, frame = self.cap.read()
-        ret2,jpeg = frame.imencode('.jpg', frame)
+        ret2,jpeg = cv2.imencode('.jpg', frame)
         return jpeg.tobytes()
+
+    def get_bmp(self):
+        ret, frame = self.cap.read()
+        ret2,bmp = cv2.imencode('.bmp', frame)
+        return bmp.tobytes()
 
 @app.route('/api/hello', methods=['GET'])
 def start():
@@ -25,31 +30,35 @@ def start():
 
 def gen(camera):
     while True:
-        frame = camera.get_frame()
+        frame = camera.get_jpeg()
         yield(b'--frame\r\n'
               b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n\r\n')
 
-@app.route('/video_stream')
+@app.route('/get_video')
 def video_stream():
     return Response(gen(VideoCamera()),mimetype='multipart/x-mixed-replace; boundary=frame')
+
+@app.route('/get_image')
+def image_stream():
+    return Response(VideoCamera().get_bmp(),mimetype='image/jpg')
 
 @app.route('/')
 def index():
     '''
-    image web page with image in it
+    image web page with video in it
     :return:
     '''
     return render_template('index.html')
 
-@app.route('/api/get_image', methods=['GET'])
-def get_image():
+
+@app.route('/image')
+def image():
     '''
-    image file will be downloaded by client
+    image web page with image in it
     :return:
     '''
-    img = cv2.imread('static/image_1.jpg')
-    return send_from_directory('static','image_1.jpg') #
-    #return send_file('static/image_1.jpg',mimetype='image/jpg')
+    return render_template('image.html')
+
 
 @app.route('/api/echo',methods=['GET','POST'])
 def login():
