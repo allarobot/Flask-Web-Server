@@ -1,11 +1,15 @@
-from flask import Flask,render_template,send_file,send_from_directory
-from flask import request,Response
-import cv2
-from flask import redirect
-from flask import jsonify
+from flask import Flask,render_template, send_file, send_from_directory
+from flask import Response, request,redirect,jsonify,url_for
+#form flask_uploads import UploadSet, IMAGES, configure
+import cv2,os
 import json
+
 app = Flask(__name__)
+
 class VideoCamera():
+    '''
+    access camera image or video
+    '''
     def __init__(self,device=0):
         self.cap = cv2.VideoCapture(device)
 
@@ -40,7 +44,7 @@ def video_stream():
 
 @app.route('/get_image')
 def image_stream():
-    return Response(VideoCamera().get_bmp(),mimetype='image/jpg')
+    return Response(VideoCamera().get_bmp(),mimetype='image/bmp')
 
 @app.route('/')
 def index():
@@ -60,20 +64,39 @@ def image():
     return render_template('image.html')
 
 
-@app.route('/api/echo',methods=['GET','POST'])
-def login():
+@app.route('/api/upload/image',methods=['GET','POST'])
+def upload():
     '''
-    try POST function
+    upload image and show it
     :return:
     '''
-    if request.method == 'POST':
-        data = request.form
-        print(data)
-        msg = 'POST:{0}'.format(data)
+    if request.method == 'POST' and 'image' in request.files:
+        image_file = request.files['image']
+        image_path = os.path.join('static',image_file.filename)
+        image_path = os.path.abspath(image_path)
+        image_file.save(image_path)
+        print('POST: /api/upload/image --> {}'.format(image_path))
+        image_url = url_for('static',filename=image_file.filename)
+        return render_template('show.html',image=image_url)
     else:
-        msg = '{GET}'
+        return render_template('upload.html')
+
+
+@app.route('/api/echo/<file>',methods=['GET','POST'])
+def echo(file):
+    '''
+    echo cmd to client
+    :return:
+    '''
+    msg =''
+    if request.method == 'POST':
+
+        msg = 'POST:/api/echo/{}'.format(file)
+    else:
+        msg = 'GET:/api/echo/{}'.format(file)
+    print(msg)
     return msg
 
 
 if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=80)
