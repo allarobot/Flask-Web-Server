@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
+<<<<<<< HEAD
+    <bookmark url="file://$PROJECT_DIR$/main.py" line="50" mnemonic="3" />
+=======
     <bookmark url="file://$PROJECT_DIR$/web_server.py" line="28" mnemonic="3" />
+>>>>>>> master
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1a1772b-e442-42f0-853b-35a7cb957226" name="Default Changelist" comment="" />
@@ -28,8 +32,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/request_web.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="342">
+              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#69#0" expanded="true" />
+=======
+            <state relative-caret-position="209">
+              <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+>>>>>>> master
+              </folding>
+=======
             <state relative-caret-position="-38">
               <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+>>>>>>> v1
             </state>
           </provider>
         </entry>
@@ -65,9 +84,19 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="x" value="1024" />
+    <option name="y" value="55" />
+=======
+    <option name="x" value="56" />
+    <option name="y" value="23" />
+>>>>>>> master
+=======
     <option name="x" value="289" />
     <option name="y" value="111" />
+>>>>>>> v1
     <option name="width" value="1094" />
     <option name="height" value="740" />
   </component>
@@ -84,10 +113,26 @@
               <item name="flask_webserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask_webserver" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <path>
+              <item name="flask_webserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_webserver" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_webserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_webserver" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+=======
+>>>>>>> master
+=======
             <path>
               <item name="flask_webserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+>>>>>>> v1
           </expand>
           <select />
         </subPane>
@@ -176,10 +221,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="111" width="1094" height="740" extended-state="1" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <frame x="1024" y="55" width="1094" height="740" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+=======
+    <frame x="56" y="23" width="1094" height="740" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249767" />
+>>>>>>> master
+=======
+    <frame x="289" y="111" width="1094" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24905303" />
+>>>>>>> v1
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -218,8 +277,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/request_web.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="342">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#69#0" expanded="true" />
+=======
+        <state relative-caret-position="209">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+>>>>>>> master
+          </folding>
+=======
         <state relative-caret-position="-38">
           <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+>>>>>>> v1
         </state>
       </provider>
     </entry>

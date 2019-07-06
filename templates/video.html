@@ -5,9 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-<h1> image display</h1>
-
+<h1> hello image</h1>
+<select id="stream_option">
+    <option value="video"> video stream</option>
+    <option value="image"> static image</option>
+</select>
 <img src="{{url_for('video_stream')}}"/>
-
 </body>
 </html>
