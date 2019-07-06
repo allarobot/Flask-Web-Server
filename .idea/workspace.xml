@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/web_server.py" line="28" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1a1772b-e442-42f0-853b-35a7cb957226" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/flask_webserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask_webserver.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/request_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_web.py" afterDir="false" />
-    </list>
+    <list default="true" id="b1a1772b-e442-42f0-853b-35a7cb957226" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="289" />
     <option name="y" value="111" />
     <option name="width" value="1094" />
@@ -181,7 +176,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="111" width="1094" height="740" extended-state="0" />
+    <frame x="289" y="111" width="1094" height="740" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24905303" />
