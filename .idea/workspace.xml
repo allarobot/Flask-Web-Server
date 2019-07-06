@@ -12,7 +12,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/flask_webserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask_webserver.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/web_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_web.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_web.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="304">
               <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding>
                 <element signature="e#0#69#0" expanded="true" />
@@ -38,6 +38,7 @@
         <entry file="file://$PROJECT_DIR$/request_web.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="342">
               <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding>
@@ -49,6 +50,10 @@
                 <element signature="e#0#15#0" expanded="true" />
 >>>>>>> master
               </folding>
+=======
+            <state relative-caret-position="-38">
+              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+>>>>>>> v1
             </state>
           </provider>
         </entry>
@@ -56,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="190">
               <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
@@ -86,12 +91,17 @@
   </component>
   <component name="ProjectFrameBounds">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="x" value="1024" />
     <option name="y" value="55" />
 =======
     <option name="x" value="56" />
     <option name="y" value="23" />
 >>>>>>> master
+=======
+    <option name="x" value="289" />
+    <option name="y" value="111" />
+>>>>>>> v1
     <option name="width" value="1094" />
     <option name="height" value="740" />
   </component>
@@ -109,6 +119,7 @@
               <item name="flask_webserver" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <path>
               <item name="flask_webserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask_webserver" type="462c0819:PsiDirectoryNode" />
@@ -121,6 +132,12 @@
             </path>
 =======
 >>>>>>> master
+=======
+            <path>
+              <item name="flask_webserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+>>>>>>> v1
           </expand>
           <select />
         </subPane>
@@ -210,6 +227,7 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="1024" y="55" width="1094" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -220,11 +238,17 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249767" />
 >>>>>>> master
+=======
+    <frame x="289" y="111" width="1094" height="740" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24905303" />
+>>>>>>> v1
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3271605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32673267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,16 +263,9 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="304">
           <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
@@ -256,8 +273,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/request_web.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <state relative-caret-position="342">
           <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
@@ -270,6 +295,10 @@
             <element signature="e#0#15#0" expanded="true" />
 >>>>>>> master
           </folding>
+=======
+        <state relative-caret-position="-38">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+>>>>>>> v1
         </state>
       </provider>
     </entry>
