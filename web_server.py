@@ -26,11 +26,22 @@ class VideoCamera():
         ret2,bmp = cv2.imencode('.bmp', frame)
         return bmp.tobytes()
 
-@app.route('/api/hello', methods=['GET'])
+@app.route('/api/v1/part', methods=['GET'])
 def start():
   return json.dumps({
-    'code': 'hello world'
+    'status': 'part count service works in internet'
   })
+
+@app.route('/api/v1/part/images', methods=['POST'])
+def images():
+    n = 666
+    if request.method == 'POST' and 'image' in request.files:
+        image_file = request.files['image']
+        image_path = os.path.join('static', image_file.filename)
+        image_path = os.path.abspath(image_path)
+        image_file.save(image_path)
+    return json.dumps({
+    'Count': '{}'.format(n) })
 
 def gen(camera):
     while True:
@@ -40,11 +51,11 @@ def gen(camera):
 
 @app.route('/get_video')
 def video_stream():
-    return Response(gen(VideoCamera()),mimetype='multipart/x-mixed-replace; boundary=frame')
+    return Response(gen(VideoCamera()), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 @app.route('/get_image')
 def image_stream():
-    return Response(VideoCamera().get_bmp(),mimetype='image/bmp')
+    return Response(VideoCamera().get_bmp(), mimetype='image/bmp')
 
 @app.route('/')
 def index():
@@ -54,6 +65,13 @@ def index():
     '''
     return render_template('index.html')
 
+@app.route('/video')
+def video():
+    '''
+    image web page with video in it
+    :return:
+    '''
+    return render_template('video.html')
 
 @app.route('/image')
 def image():
@@ -99,4 +117,4 @@ def echo(file):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=8094)
