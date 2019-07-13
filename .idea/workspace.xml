@@ -38,6 +38,10 @@
         <entry file="file://$PROJECT_DIR$/request_web.py">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> feature_2_cameraerror
+<<<<<<< HEAD
             <state relative-caret-position="342">
               <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding>
@@ -49,6 +53,13 @@
                 <element signature="e#0#15#0" expanded="true" />
 >>>>>>> master
               </folding>
+<<<<<<< HEAD
+=======
+=======
+            <state relative-caret-position="-38">
+              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+>>>>>>> v1
+>>>>>>> feature_2_cameraerror
             </state>
           </provider>
         </entry>
@@ -86,12 +97,23 @@
   </component>
   <component name="ProjectFrameBounds">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> feature_2_cameraerror
+<<<<<<< HEAD
     <option name="x" value="1024" />
     <option name="y" value="55" />
 =======
     <option name="x" value="56" />
     <option name="y" value="23" />
 >>>>>>> master
+<<<<<<< HEAD
+=======
+=======
+    <option name="x" value="289" />
+    <option name="y" value="111" />
+>>>>>>> v1
+>>>>>>> feature_2_cameraerror
     <option name="width" value="1094" />
     <option name="height" value="740" />
   </component>
@@ -109,6 +131,10 @@
               <item name="flask_webserver" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> feature_2_cameraerror
+<<<<<<< HEAD
             <path>
               <item name="flask_webserver" type="b2602c69:ProjectViewProjectNode" />
               <item name="flask_webserver" type="462c0819:PsiDirectoryNode" />
@@ -121,6 +147,15 @@
             </path>
 =======
 >>>>>>> master
+<<<<<<< HEAD
+=======
+=======
+            <path>
+              <item name="flask_webserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+>>>>>>> v1
+>>>>>>> feature_2_cameraerror
           </expand>
           <select />
         </subPane>
@@ -210,6 +245,10 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> feature_2_cameraerror
+<<<<<<< HEAD
     <frame x="1024" y="55" width="1094" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -220,6 +259,15 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.249767" />
 >>>>>>> master
+<<<<<<< HEAD
+=======
+=======
+    <frame x="289" y="111" width="1094" height="740" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24905303" />
+>>>>>>> v1
+>>>>>>> feature_2_cameraerror
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -259,6 +307,10 @@
     <entry file="file://$PROJECT_DIR$/request_web.py">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> feature_2_cameraerror
+<<<<<<< HEAD
         <state relative-caret-position="342">
           <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
           <folding>
@@ -270,6 +322,13 @@
             <element signature="e#0#15#0" expanded="true" />
 >>>>>>> master
           </folding>
+<<<<<<< HEAD
+=======
+=======
+        <state relative-caret-position="-38">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+>>>>>>> v1
+>>>>>>> feature_2_cameraerror
         </state>
       </provider>
     </entry>

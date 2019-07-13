@@ -5,9 +5,11 @@
     <title>Title</title>
 </head>
 <body>
+<a href="{{url_for('index')}}"> 前往主页 </a>
 <form method='POST' enctype="multipart/form-data" action="{{ url_for('upload') }}">
     <input type='file' name ='image' >
     <input type="submit" >
 </form>
+
 </body>
 </html>
