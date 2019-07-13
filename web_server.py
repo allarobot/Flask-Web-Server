@@ -7,14 +7,18 @@ app = Flask(__name__)
 
 video_camera = None
 global_frame = None
+## mini borescope setting
+res =(720,576)
 
+##PC screen setting
+res = (1366,768)
 
-def video_stream():
+def video_stream(resolution):
     global video_camera
     global global_frame
 
     if video_camera == None:
-        video_camera = VideoCamera()
+        video_camera = VideoCamera(resolution=resolution)
 
     while True:
         frame = video_camera.get_frame('.jpg')
@@ -48,13 +52,13 @@ def images():
 
 @app.route('/get_video')
 def get_video():
-    return Response(video_stream(),
+    return Response(video_stream(resolution=res),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
 
 
 @app.route('/get_image')
 def get_image():
-    return Response(VideoCamera().get_frame('.bmp'),
+    return Response(VideoCamera(resolution=res).get_frame('.bmp'),
                     mimetype='image/bmp')
 
 
